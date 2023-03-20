@@ -12,7 +12,7 @@
             firebase.auth().onAuthStateChanged((user)=>{ 
                 if(user){
                     console.log(user)
-                    window.location.href = '/profileUser/profile.html'
+                    window.location.href = './profileUser/profile.html'
                 }
             })
         })
