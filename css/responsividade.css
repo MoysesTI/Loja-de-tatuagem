@@ -123,7 +123,6 @@
         right: 0%;
         background: var(--back-Grounds);
         height: calc(100vh - 25.5rem);
-        border: var(--boderVisu);
         border-top: none;
         transition: 1s;
         margin-right: 8%;
