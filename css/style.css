@@ -465,7 +465,7 @@
 
     /* banner phone */
     .bannerImg{
-        background-image: url(/Tattoo/banner/Technology\ \(4\).png);
+        background-image: url(./Tattoo/banner/Technology\ \(4\).png);
         background-size:cover;
         width: 100%;
         height: 400px;
