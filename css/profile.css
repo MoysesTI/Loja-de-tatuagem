@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
     color: var(--color-Frase);
     background-color: var(--color-Frase);
-    background-image: url(/Tattoo/banner/black_and_white_Grunge_paint_background.jpg);
+    background-image: url(./Tattoo/banner/black_and_white_Grunge_paint_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
