@@ -97,7 +97,8 @@ let valor
                 pegarKey(e)
                 askremoveProduct(doc, e)
             })
-            cartItem.querySelector('img').src = valores.informetionProducts.img
+            console.log(doc.data())
+            cartItem.querySelector('img').src = `.${valores.informetionProducts.img}`
             cartItem.querySelector('.cart--item-nome').innerHTML = `${valores.informetionProducts.name}`
             cartItem.querySelector('.cart--item-desc').innerHTML = valores.informetionProducts.description
             document.querySelector('.subtotal span:last-child').innerHTML = `R$ ${valores.valuetotal.toFixed(2)}` 
